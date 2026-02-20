@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+          
+        }
+        body{
+            margin: 30pxpx;
+            padding: 20px;
+            background-color: black;
+            display: flex;
+           
+            
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            
+
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            border: 2px solid black;
+            
+            border-radius: 20px;
+            background-color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            height: 5rem;
+            margin: 10rem;
+            width: 30rem;
+            height: 30rem;
+            padding: 10rem;
+        }
+        li{
+            display: flex;
+            margin: 0;
+            padding: 0;
+           list-style: none;
+            
+        }
+        .bu{
+           width: 20rem;
+           margin: 2rem;
+           display: flex;
+           justify-content: left;
+        
+         
+        }
+        button{
+            
+            
+           margin: 10px;
+            height: 3rem;
+            width: 5rem;
+            border: 2px solid black;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          
+            background-color: rgb(87, 87, 196);
+            border-radius: 20px;
+            letter-spacing: 1px;
+           
+  
+        }
+        input{
+           padding: 0.7rem;
+           
+
+            
+            border-radius: 0.5rem;
+            box-shadow: 0.1rem 0.1rem 0.1rem black;
+            width: 20rem;
+        }
+        label{
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            margin: 3rem;
+            display: flex;
+           
+        }
+        
+     
+    </style>
+</head>
+<body>
+    <div>
+     <form action="" >
+        <h1>Welcome back</h1>
+        <li><label for="">FirstName:</label><br></li>
+        <li><input type="text" placeholder="Enter your name"><br></li>
+       
+       <li> <label for="">Gmail</label></li>
+      <li>  <input type="mail" placeholder="Enter your mail id "><br></li>
+       <li><label for="">Password</label></li>
+       <li> <input type="password" placeholder="Enter your password"><br></li>
+        <div class="bu">
+            <button type="submit">login</button>
+        <button type="reset">reset</button>
+        </div>
+    
+    </form>
+    </div>
+</body>
+</html>
